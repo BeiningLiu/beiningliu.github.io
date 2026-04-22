@@ -1,21 +1,18 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "beiningliu.github.io"
+  title: "Beining Liu"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-
