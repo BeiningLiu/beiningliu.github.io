@@ -1,7 +1,42 @@
 ---
-title: "beiningliu.github.io"
+title: ""
 ---
 
-This is a Quarto website.
+# Beining Liu
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Master's Student in Quantitative Economics  
+New York University Stern School of Business
+
+## Research Interests
+
+- Economic History
+- Political Economy
+- Applied Microeconomics
+- Culture and Informal Institutions
+
+## About Me
+
+I am a master's student in Quantitative Economics at NYU Stern. My research interests lie in economic history, political economy, and applied microeconomics. I am particularly interested in how historical events, informal institutions, and state-society interactions shape contemporary economic and political outcomes.
+
+My current projects study topics including the Boxer Rebellion and modern nationalism in China, the Great Depression and entry into scientific careers, and literacy and political change in Tokugawa Japan.
+
+## Current Research
+
+### Boxer Rebellion Memory and State Response in Modern China
+
+This project studies how local historical memory of the Boxer Rebellion affects contemporary nationalism, collective action, and state responses in China.
+
+### The Great Depression and Entry into Scientific Careers
+
+This project examines whether local exposure to the Great Depression affected the decision to enter scientific careers in the United States.
+
+### Literacy, Information Diffusion, and the Meiji Restoration in Tokugawa Japan
+
+This project studies whether the spread of terakoya education influenced political mobilization and modernization during the late Tokugawa period.
+
+## Links
+
+- [GitHub](https://github.com/BeiningLiu)
+- [Google Scholar](#)
+- [CV](cv.qmd)
+- Email: liubeining [AT] nyu [DOT] edu
