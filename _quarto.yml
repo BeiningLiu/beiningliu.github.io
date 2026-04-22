@@ -6,13 +6,13 @@ website:
   title: "Beining Liu"
   navbar:
     left:
-      - href: home.qmd
+      - href: 1-home.qmd
         text: Home
-      - href: research.qmd
+      - href: 2-research.qmd
         text: Research
-      - href: cv.qmd
+      - href: 3-cv.qmd
         text: CV
-      - href: contact.qmd
+      - href: 4-contact.qmd
         text: Contact
 
 format:
