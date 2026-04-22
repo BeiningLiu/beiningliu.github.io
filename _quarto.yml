@@ -6,7 +6,7 @@ website:
   title: "Beining Liu"
   navbar:
     left:
-      - href: index.qmd
+      - href: home.qmd
         text: Home
       - href: research.qmd
         text: Research
