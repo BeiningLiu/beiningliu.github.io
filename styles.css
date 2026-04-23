@@ -1,73 +1,116 @@
-/* css styles */
+/* =========================
+   全局页面设置（整个网站）
+   控制：字体、基础字号、行距、整体颜色
+========================= */
 body {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 20px;
-  line-height: 1.6;
-  color: #222;
-  background-color: #f7f7f7;
+  font-family: Georgia, "Times New Roman", serif;   /* 全站字体（正文） */
+  font-size: 10px;                                  /* 正文字号 */
+  line-height: 1.25;                                 /* 行距（越大越松） */
+  color: #222;                                      /* 正文文字颜色 */
+  background-color: #f7f7f7;                        /* 页面背景颜色 */
 }
 
+
+/* =========================
+   顶部导航栏（Home / Research）
+========================= */
 .navbar {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 20px;
+  font-family: Georgia, "Times New Roman", serif;   /* 导航栏字体 */
+  font-size: 20px;                                  /* 导航栏字号 */
 }
 
+/* 左上角名字（Beining Liu） */
 .navbar-brand {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 22px;                                  /* 名字字号 */
+  font-weight: 500;                                 /* 粗细（越大越粗） */
 }
 
+/* 右上角菜单（Home / Research 等） */
 .navbar-nav .nav-link {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 20px;                                  /* 菜单字号 */
+  font-weight: 500;                                 /* 菜单粗细 */
 }
 
+
+/* =========================
+   首页 & Research 页的大标题
+   控制：页面最上方的大字（Beining Liu / Research）
+========================= */
 #home-title, #research-title {
-  text-align: center;
-  font-size: 72px;
-  color: #2f4f1f;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-weight: 700;
+  text-align: center;                               /* 居中 */
+  font-size: 72px;                                  /* 超大标题字号 */
+  color: #2f4f1f;                                   /* 深绿色（你截图里的风格） */
+  margin-top: 40px;                                 /* 上边距 */
+  margin-bottom: 30px;                              /* 下边距 */
+  font-weight: 700;                                 /* 加粗 */
 }
 
+
+/* =========================
+   页面主体宽度（非常重要）
+   控制页面左右留白（像 QJE 风格）
+========================= */
 main.content {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 80px;
+  max-width: 1400px;                                /* 页面最大宽度（越大越宽） */
+  margin: 0 auto;                                   /* 居中 */
+  padding-left: 60px;                               /* 左侧留白 */
+  padding-right: 60px;                              /* 右侧留白 */
+  padding-bottom: 80px;                             /* 底部留白 */
 }
 
+
+/* =========================
+   标题下面那条横线
+========================= */
 hr {
   border: none;
-  border-top: 2px solid #d0d0d0;
+  border-top: 2px solid #d0d0d0;                    /* 线的颜色 */
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 50px;                              /* 和正文的距离 */
 }
 
+
+/* =========================
+   首页左侧照片
+========================= */
 #profile-photo {
-  width: 100%;
-  max-width: 520px;
+  width: 100%;                                      /* 自适应宽度 */
+  max-width: 520px;                                 /* 最大宽度 */
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;                                   /* 居中 */
 }
 
+
+/* =========================
+   正文段落（最常改）
+========================= */
 p {
-  margin-bottom: 1.1em;
+  margin-bottom: 1.1em;                             /* 段落间距 */
 }
 
+
+/* =========================
+   链接（CV / Email / GitHub）
+========================= */
 a {
-  color: #1a4cff;
-  text-decoration: underline;
+  color: #1a4cff;                                   /* 链接颜色（蓝色） */
+  text-decoration: underline;                       /* 下划线 */
 }
 
+
+/* =========================
+   小标题（Research 内部标题）
+========================= */
 h2, h3 {
-  color: #222;
-  margin-top: 1.5em;
-  margin-bottom: 0.6em;
+  color: #222;                                      /* 小标题颜色 */
+  margin-top: 1.5em;                                /* 上间距 */
+  margin-bottom: 0.6em;                             /* 下间距 */
 }
 
+
+/* =========================
+   左右两栏布局（首页关键）
+========================= */
 .columns {
-  align-items: flex-start;
+  align-items: flex-start;                          /* 左右对齐方式（顶部对齐） */
 }
