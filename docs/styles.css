@@ -102,7 +102,7 @@ hr {
   width: 100%;
   max-width: 440px;
   display: block;
-  margin: 20;
+  margin: 0;
   border-radius: 0px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
@@ -112,7 +112,10 @@ hr {
    首页右侧正文（核心修复区域）
 ===================================================== */
 #home-text {
-  max-width: 640px;
+  max-width: 720px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 60px; 
 }
 
 #home-text p {
