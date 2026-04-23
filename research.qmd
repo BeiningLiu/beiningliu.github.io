@@ -6,16 +6,22 @@ title: ""
 
 ## Working Papers
 
-### Boxer Rebellion Memory and State Response in Modern China
+::: {.research-item}
+<p class="paper-title">Boxer Rebellion Memory and State Response in Modern China</p>
 
-This project studies how local historical memory of the Boxer Rebellion shapes contemporary nationalism, collective action, and government responses in China.
+<p class="paper-desc">This project studies how local historical memory of the Boxer Rebellion shapes contemporary nationalism, collective action, and government responses in China.</p>
+:::
 
-### The Great Depression and Entry into Scientific Careers
+::: {.research-item}
+<p class="paper-title">The Great Depression and Entry into Scientific Careers</p>
 
-This project examines whether local exposure to economic distress during the Great Depression affected entry into scientific careers in the United States.
+<p class="paper-desc">This project examines whether local exposure to economic distress during the Great Depression affected entry into scientific careers in the United States.</p>
+:::
 
 ## Work in Progress
 
-### Literacy, Information Diffusion, and the Meiji Restoration in Tokugawa Japan
+::: {.research-item}
+<p class="paper-title">Literacy, Information Diffusion, and the Meiji Restoration in Tokugawa Japan</p>
 
-This project studies whether the spread of terakoya education contributed to information diffusion, political mobilization, and modernization in late Tokugawa Japan.
+<p class="paper-desc">This project studies whether the spread of terakoya education contributed to information diffusion, political mobilization, and modernization in late Tokugawa Japan.</p>
+:::
