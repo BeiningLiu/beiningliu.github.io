@@ -103,7 +103,7 @@ hr {
   max-width: 440px;
   display: block;
   margin: 0 auto;
-  border-radius: 16px;
+  border-radius: 0px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
@@ -187,7 +187,7 @@ h3 {
 ===================================================== */
 .columns {
   align-items: flex-start;
-  gap: 50px;
+  gap: 88px;
 }
 
 
