@@ -247,63 +247,45 @@ li {
 ===================================================== */
 @media (max-width: 991px) {
 
-  #home-title,
-  #research-title {
-    font-size: 36px;
-    margin-top: 28px;
-  }
-
-  main.content {
-    max-width: 100%;
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  /* 手机端：左右两栏改成上下排列 */
+  /* 强制列变成上下结构 */
   .columns {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: center;
+    display: block !important;
   }
 
-  /* 手机端：图片在上面，居中显示 */
+  .columns > .column {
+    width: 100% !important;
+    display: block;
+  }
+
+  /* 图片：居中 + 放大 */
   #profile-photo {
-    max-width: 260px;
-    margin: 0 auto 20px auto;
+    display: block;
+    max-width: 600px;       /* 手机上稍微大一点 */
+    margin: 0 auto 24px auto;  /* 居中 */
+    width: 100%;
   }
 
-  /* 手机端：文字在下面，取消左边距，字号变小 */
+  /* 文字：放下面 + 两端对齐 */
   #home-text {
-    max-width: 100%;
     margin-left: 0;
-    text-align: left;
+    max-width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 10px;
   }
 
   #home-text p {
-    font-size: 16px;
-    line-height: 1.65;
+    font-size: 12px;
+    line-height: 1.7;
   }
 
   #home-text .intro {
-    font-size: 22px;
+    font-size: 26px;
+    text-align: center;   /* 可选：让 Welcome 居中更好看 */
   }
 
+  /* 页面整体 */
   body {
-    font-size: 16px;
-    line-height: 1.65;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 19px;
-  }
-
-  .navbar-nav .nav-link {
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 12px;
   }
 }
