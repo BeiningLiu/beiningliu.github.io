@@ -5,18 +5,21 @@ project:
 website:
   title: "Beining Liu"
   navbar:
-    left:
-      - href: 1-home.qmd
+    background: dark
+    foreground: light
+    right:
+      - href: home.qmd
         text: Home
-      - href: 2-research.qmd
+      - href: research.qmd
         text: Research
-      - href: 3-cv.qmd
-        text: CV
-      - href: 4-contact.qmd
-        text: Contact
+      - href: useful-resources.qmd
+        text: Useful Resources
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    page-layout: full
+
+editor: visual
