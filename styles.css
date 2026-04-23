@@ -247,27 +247,27 @@ li {
 ===================================================== */
 @media (max-width: 991px) {
 
-  /* 强制列变成上下结构 */
+  /* 强制 columns 变成上下结构 */
   .columns {
     display: block !important;
   }
 
   .columns > .column {
+    display: block !important;
     width: 100% !important;
-    display: block;
+    max-width: 100% !important;
   }
 
-  /* 图片：居中 + 放大 */
+  /* 图片在上 + 居中 + 放大 */
   #profile-photo {
     display: block;
-    max-width: 600px;       /* 手机上稍微大一点 */
-    margin: 0 auto 24px auto;  /* 居中 */
-    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 24px auto;
   }
 
-  /* 文字：放下面 + 两端对齐 */
+  /* 文字在下 + 两端对齐 */
   #home-text {
-    margin-left: 0;
+    margin-left: 0 !important;
     max-width: 100%;
     text-align: justify;
     text-justify: inter-word;
@@ -275,17 +275,16 @@ li {
   }
 
   #home-text p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.7;
   }
 
   #home-text .intro {
-    font-size: 26px;
-    text-align: center;   /* 可选：让 Welcome 居中更好看 */
+    font-size: 22px;
+    text-align: center;
   }
 
-  /* 页面整体 */
   body {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
