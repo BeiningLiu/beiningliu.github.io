@@ -23,7 +23,7 @@ You can find my CV [here](files/CV.pdf).
 
 Contact:
 
-[beining.liu@nyu.edu](mailto:beining.liu@nyu.edu)
+[liubeining [AT] nyu [DOT] edu](mailto:liubeining@nyu.edu)
 
 GitHub: [BeiningLiu](https://github.com/BeiningLiu)
 

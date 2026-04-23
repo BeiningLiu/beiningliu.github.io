@@ -1,116 +1,243 @@
-/* =========================
-   全局页面设置（整个网站）
-   控制：字体、基础字号、行距、整体颜色
-========================= */
+/* =====================================================
+   全站基础设置
+   风格：干净、克制、学术主页风格
+===================================================== */
 body {
-  font-family: Georgia, "Times New Roman", serif;   /* 全站字体（正文） */
-  font-size: 20px;                                  /* 正文字号 */
-  line-height: 1.6;                                 /* 行距（越大越松） */
-  color: #222;                                      /* 正文文字颜色 */
-  background-color: #f7f7f7;                        /* 页面背景颜色 */
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #1f1f1f;
+  background-color: #faf9f7;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 
-/* =========================
-   顶部导航栏（Home / Research）
-========================= */
+/* =====================================================
+   顶部导航栏
+===================================================== */
 .navbar {
-  font-family: Georgia, "Times New Roman", serif;   /* 导航栏字体 */
-  font-size: 20px;                                  /* 导航栏字号 */
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e2dc;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
-/* 左上角名字（Beining Liu） */
 .navbar-brand {
-  font-size: 22px;                                  /* 名字字号 */
-  font-weight: 500;                                 /* 粗细（越大越粗） */
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f1f1f !important;
+  letter-spacing: 0.2px;
 }
 
-/* 右上角菜单（Home / Research 等） */
 .navbar-nav .nav-link {
-  font-size: 20px;                                  /* 菜单字号 */
-  font-weight: 500;                                 /* 菜单粗细 */
+  font-size: 18px;
+  font-weight: 500;
+  color: #444 !important;
+  margin-left: 14px;
+  margin-right: 14px;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #1d4e89 !important;
 }
 
 
-/* =========================
-   首页 & Research 页的大标题
-   控制：页面最上方的大字（Beining Liu / Research）
-========================= */
-#home-title, #research-title {
-  text-align: auto;                                 /* 居中 */
-  font-size: 15px;                                  /* 超大标题字号 */
-  color: #2f4f1f;                                 /* 深绿色（你截图里的风格） */
-  margin-top: 40px;                                 /* 上边距 */
-  margin-bottom: 30px;                              /* 下边距 */
-  font-weight: 200;                                 /* 加粗 */
+/* =====================================================
+   页面主标题
+===================================================== */
+#home-title,
+#research-title {
+  text-align: center;
+  font-size: 56px;
+  color: #20364f;
+  margin-top: 42px;
+  margin-bottom: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 1.15;
 }
 
 
-/* =========================
-   页面主体宽度（非常重要）
-   控制页面左右留白（像 QJE 风格）
-========================= */
+/* =====================================================
+   页面主体区域
+===================================================== */
 main.content {
-  max-width: 1400px;                                /* 页面最大宽度（越大越宽） */
-  margin: 0 auto;                                   /* 居中 */
-  padding-left: 60px;                               /* 左侧留白 */
-  padding-right: 60px;                              /* 右侧留白 */
-  padding-bottom: 80px;                             /* 底部留白 */
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 80px;
+  text-align: left;
 }
 
 
-/* =========================
-   标题下面那条横线
-========================= */
+/* =====================================================
+   标题下方横线
+===================================================== */
 hr {
   border: none;
-  border-top: 2px solid #d0d0d0;                    /* 线的颜色 */
-  margin-top: 10px;
-  margin-bottom: 50px;                              /* 和正文的距离 */
+  border-top: 1px solid #d9d5ce;
+  max-width: 760px;
+  margin: 0 auto 42px auto;
 }
 
 
-/* =========================
-   首页左侧照片
-========================= */
+/* =====================================================
+   首页照片
+===================================================== */
 #profile-photo {
-  width: 100%;                                      /* 自适应宽度 */
-  max-width: 520px;                                 /* 最大宽度 */
+  width: 100%;
+  max-width: 360px;
   display: block;
-  margin: 0 auto;                                   /* 居中 */
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 
-/* =========================
-   正文段落（最常改）
-========================= */
+/* =====================================================
+   段落正文
+===================================================== */
 p {
-  margin-bottom: 1.1em;                             /* 段落间距 */
+  margin-top: 0;
+  margin-bottom: 1.1em;
+  max-width: 760px;
 }
 
 
-/* =========================
-   链接（CV / Email / GitHub）
-========================= */
+/* =====================================================
+   链接
+===================================================== */
 a {
-  color: #1a4cff;                                   /* 链接颜色（蓝色） */
-  text-decoration: underline;                       /* 下划线 */
+  color: #1d4e89;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(29, 78, 137, 0.35);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  color: #14395f;
+  border-bottom-color: rgba(20, 57, 95, 0.75);
 }
 
 
-/* =========================
-   小标题（Research 内部标题）
-========================= */
-h2, h3 {
-  color: #222;                                      /* 小标题颜色 */
-  margin-top: 1.5em;                                /* 上间距 */
-  margin-bottom: 0.6em;                             /* 下间距 */
+/* =====================================================
+   二级、三级标题
+===================================================== */
+h2,
+h3 {
+  color: #1f1f1f;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 31px;
+  margin-top: 2em;
+  margin-bottom: 0.65em;
+  color: #20364f;
+}
+
+h3 {
+  font-size: 23px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 
-/* =========================
-   左右两栏布局（首页关键）
-========================= */
+/* =====================================================
+   首页两栏布局
+===================================================== */
 .columns {
-  align-items: flex-start;                          /* 左右对齐方式（顶部对齐） */
+  align-items: flex-start;
+  gap: 52px;
+}
+
+
+/* =====================================================
+   列表
+===================================================== */
+ul {
+  padding-left: 1.25em;
+  margin-top: 0.5em;
+  margin-bottom: 1.2em;
+  max-width: 760px;
+}
+
+li {
+  margin-bottom: 0.55em;
+}
+
+
+/* =====================================================
+   Research 页面条目可读性优化
+   如果有论文条目、working paper、publication列表，会更清楚
+===================================================== */
+.publication,
+.research-item {
+  margin-bottom: 1.4em;
+}
+
+
+/* =====================================================
+   Useful Resources 页面
+   让资源列表更像整理过的学术链接页
+===================================================== */
+.resource-list li,
+.useful-resources li {
+  margin-bottom: 0.75em;
+}
+
+
+/* =====================================================
+   小屏幕适配
+===================================================== */
+@media (max-width: 991px) {
+  #home-title,
+  #research-title {
+    font-size: 42px;
+    margin-top: 32px;
+  }
+
+  main.content {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #profile-photo {
+    max-width: 280px;
+    margin-bottom: 28px;
+  }
+
+  .columns {
+    gap: 28px;
+  }
+
+  body {
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
