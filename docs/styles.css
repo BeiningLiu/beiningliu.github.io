@@ -243,7 +243,7 @@ li {
 
 
 /* =====================================================
-   响应式
+   移动设备
 ===================================================== */
 @media (max-width: 991px) {
 
@@ -273,12 +273,27 @@ li {
     line-height: 1.65;
   }
 
+  #home-text {
+  max-width: 720px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  margin-left: 60px;
+  }
+
   #home-text p {
-    font-size: 18px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #222;
+  margin-bottom: 1em;
   }
 
   #home-text .intro {
-    font-size: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #20364f;
+  margin-top: 0;
+  margin-bottom: 0.8em;
   }
 
   h2 {
@@ -288,6 +303,31 @@ li {
   h3 {
     font-size: 20px;
   }
+
+ .research-item {
+  max-width: 860px;
+  margin: 0 auto 2.2em auto;
+  padding-top: 0.2em;
+  }
+
+  .paper-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f1f1f;
+  line-height: 1.35;
+  margin-bottom: 0.45em;
+  text-align: left;
+  }
+
+  .paper-desc {
+  font-size: 12px;
+  line-height: 1.25;
+  color: #2a2a2a;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 0;
+  }
+
 
   .navbar-nav .nav-link {
     margin-left: 0;
