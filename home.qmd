@@ -11,7 +11,7 @@ title: ""
 ![](images/profile.jpg){#profile-photo}
 :::
 
-::: {.column width="60%"}
+::: {.column width="52%"}
 
 ::: {#home-text}
 
