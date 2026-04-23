@@ -15,7 +15,7 @@ website:
       - href: useful-resources.qmd
         text: Useful Resources
       - href: CN.qmd
-        text: Chinese Page  
+        text: 中文简介  
 
 format:
   html:
