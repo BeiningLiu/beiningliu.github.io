@@ -14,7 +14,7 @@ website:
         text: Research
       - href: useful-resources.qmd
         text: Useful Resources
-      - href: CN.qmd
+      - href: zw.qmd
         text: 中文简介  
 
 format:
