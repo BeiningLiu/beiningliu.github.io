@@ -35,7 +35,7 @@ body {
 
 .navbar-nav .nav-link {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   color: #444 !important;
   margin-left: 14px;
   margin-right: 14px;
@@ -122,12 +122,38 @@ hr {
 
 #home-text .intro {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 400;
   color: #20364f;
   margin-top: 0;
   margin-bottom: 0.8em;
 }
 
+/* =====================================================
+   首页社交链接
+===================================================== */
+.social-links {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  align-items: center;
+}
+
+.social-links a {
+  font-size: 20px;
+  color: #4a72ff;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: 400;
+}
+
+.social-links a:hover {
+  color: #2447c6;
+}
+
+.social-links i {
+  margin-right: 8px;
+}
 
 /* =====================================================
    全局段落
@@ -206,7 +232,7 @@ li {
 
 
 /* =====================================================
-   Research 页面（优化版）
+   Research 页面（桌面版）
 ===================================================== */
 .research-item {
   max-width: 860px;
@@ -216,7 +242,7 @@ li {
 
 .paper-title {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 400;
   color: #1f1f1f;
   line-height: 1.35;
   margin-bottom: 0.45em;
@@ -247,7 +273,7 @@ li {
 ===================================================== */
 @media (max-width: 991px) {
 
-  /* 强制 columns 变成上下结构 */
+  /* Home：保持你当前移动端逻辑 */
   .columns {
     display: block !important;
   }
@@ -258,14 +284,12 @@ li {
     max-width: 100% !important;
   }
 
-  /* 图片在上 + 居中 + 放大 */
   #profile-photo {
     display: block;
     max-width: 320px;
     margin: 0 auto 24px auto;
   }
 
-  /* 文字在下 + 两端对齐 */
   #home-text {
     margin-left: 0 !important;
     max-width: 100%;
@@ -286,5 +310,54 @@ li {
 
   body {
     font-size: 16px;
+  }
+
+  /* 页面整体 */
+  main.content {
+    max-width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 56px;
+  }
+
+  #home-title,
+  #research-title {
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+  }
+
+  hr {
+    max-width: 88%;
+    margin-bottom: 32px;
+  }
+
+  /* Research：移动端优化 */
+  h2 {
+    font-size: 24px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .research-item {
+    max-width: 100%;
+    margin: 0 auto 1.9em auto;
+    padding: 0 4px;
+  }
+
+  .paper-title {
+    font-size: 21px;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+    text-align: left;
+  }
+
+  .paper-desc {
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
   }
 }

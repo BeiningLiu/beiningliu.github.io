@@ -27,7 +27,21 @@ You can find my CV [here](files/CV.pdf).
 
 Contact: liubeining [AT] nyu [DOT] edu
 
-SSRN: [Beining Liu](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4911381)
+<div class="social-links">
+
+<a href="https://github.com/BeiningLiu" target="_blank">
+<i class="bi bi-github"></i> GitHub
+</a>
+
+<a href="www.linkedin.com/in/liubn801" target="_blank">
+<i class="bi bi-linkedin"></i> LinkedIn
+</a>
+
+<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4911381" target="_blank">
+<i class="bi bi-file-earmark-text"></i> SSRN
+</a>
+
+</div>
 
 :::
 
